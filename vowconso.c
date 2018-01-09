@@ -5,7 +5,6 @@ void main()
 char let;
 printf("enter the letter:",let);
 scanf("%c",&let);
-printf("enter the letter");
 {
 if(let == 'a')
 printf("%c is a vowel",let);
@@ -18,5 +17,6 @@ printf("%c is a vowel",let);
 else if(let == 'u')
 printf("%c is a vowel",let);
 else
-printf("%c is a consonant");
+printf("%c is a consonant",let);
+}
 }
