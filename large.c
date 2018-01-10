@@ -6,11 +6,11 @@ int a,b,c;
 printf("enter three numbers:",a,b,c);
 scanf("%d%d%d",&a,&b,&c);
 {
-if ( a > b ||  a > c )
+if ( (a > b) ||  (a > c) )
 printf("%d is larger",a);
-else if (b > a || b > c)
+else if (b > c)
 printf("%d is larger",b);
-else if (c > a || c > b)
+else
 printf("%d is larger",c);
 }
 }
