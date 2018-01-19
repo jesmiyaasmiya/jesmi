@@ -6,9 +6,7 @@ scanf("%d%d",&a,&b);
 for(i=a;i<b;i++)
 {
 if(i%2==0)
-printf("even number");
-else
-printf("not a even number");
+printf("%d is a even numbers\n",i);
 }
 return 0;
 }
