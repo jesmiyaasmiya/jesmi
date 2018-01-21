@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{0
+{
 int a,d,n,i,totalnum;
 int sum=0;
 printf("enter the starting number:");
@@ -19,7 +19,7 @@ if(i!=totalnum)
 printf("%d +",i);}
 else
 {
-printf("%d=%d",i,sum);
+printf("the result is %d=%d",i,sum);
 }
 }
 return 0;
