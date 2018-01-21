@@ -1,17 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int i,f=10,l=20;
-printf("enter the first interval");
-scanf("%d",&l);
-printf("enter the second interval");
-scanf("%d",&f);
-for(i=f,i<=l,i++)
+int a, d, i, g;
+scanf("%d %d",&a,&d);
+printf("prime numbers are:\n");
+while (a<d)
 {
-if(i%2==1)
+g=0;
+for(i=2;i<=a/2;++i)
 {
-printf("%d is an odd number");
+if(a%i == 0)
+{
+g= 1;
 }
+}
+if (g==0)
+printf("%d\n",a);
+++a;
 }
 return 0;
 }
