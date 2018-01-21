@@ -1,26 +1,18 @@
 #include<stdio.h>
 int main()
 {
-int a,d,n,i,totalnum;
-int sum=0;
-printf("enter the starting number:");
-scanf("%d",&a);
-printf("\nenter the difference of each number:");
-scanf("%d",&d);
-printf("\nenter the total number of terms:");
-scanf("%d",&n);
-sum=n*(2*(a+(n-1)*d))/2;
-totalnum=a+(n-1)*d;
-printf("\n the A.P is:");
-for(i=a;i<=totalnum;i=i+d)
+int n=3,a=1,d=1,sum=0,i,y=0;
+for(i=a;i<=n;i=i+d)
 {
-if(i!=totalnum)
-{
-printf("%d +",i);}
-else
-{
-printf("the result is %d=%d",i,sum);
+/*	if(y==0)
+{ 
+a=sum;
+y=1;
 }
-}
+else*/
+sum=sum+i;
+} 
+printf("the result is %d\n",sum);
 return 0;
 }
+
