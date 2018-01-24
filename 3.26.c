@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int n,a[100],i,b,j,k;
+int n,a[100],i,j,b,k;
+ printf("enter the number of element in an array:");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
@@ -19,5 +20,5 @@ if(a[j]>=a[k])
 }
 }
 }
-printf(" %d\t",b);
+printf(" the result is %d\t",b);
 }
