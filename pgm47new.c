@@ -20,7 +20,7 @@ int main()
             }
         }
     }
-        printf("lowest number is %d\n",a[0]);
+        printf("lowest number is %d\n",a[1]);
         printf("highest number is %d\n",a[n]);
        return 0;
 }
