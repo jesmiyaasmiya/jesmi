@@ -2,15 +2,17 @@
 #include<string.h>
 int main()
 {
-char a[100];
+char j[100];
 int i,n=0,len;
 printf("enter string:");
-scanf("%s",&a);
+scanf("%s",&j);
+  len=strlen(j);
 for(i=0;i<len;i++)
 {
-if((a[i]>='0')||(a[i]<='9'))
+if(j[i]=='1'||j[i]=='2'||j[i]=='3'||j[i]=='4'||j[i]=='5'||j[i]=='6'||j[i]=='7'||j[i]=='8'||j[i]=='9'||j[i]=='0')
 {
 n++;
+}
 }
 printf("no. of numeric characters is %d",n);
 return 0;
