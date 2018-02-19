@@ -12,7 +12,7 @@ for(i=0;i<n;i++)
 {
 b[i]=a[i];
 }
-printf("%s",b);
+printf("\n character is %s",b);
 return 0;
 }
 
