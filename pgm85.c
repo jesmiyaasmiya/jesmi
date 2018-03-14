@@ -1,12 +1,20 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
 int main()
 {
-int l,i
-char a[25];
-printf("Enter the number:\n");
-scanf("%s",&a);
-l=strlen(a);
-for(i=0;i<l;i++)
-{
-  a[i]
+   char a[20];
+   int i;
+  printf("Enter the STRING:\n");
+   scanf("%s",&a);
+   for(i=0;a[i]!='\0';i++)  
+   {
+       printf("%c",a[i]);
+       i++;
+   }
+   printf(" ");
+   for(i=1;a[i]!='\0';i++)
+   {
+       printf("%c",a[i]);
+       i++;
+   }
+   return 0;
+}
