@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 	int a,b,c,d,e,f;
 	printf("\n enter the number");
@@ -10,5 +10,5 @@ void main()
 	f=c%d;
 	printf("the division is %d",e);
 	printf("the modulo is %d",f);
-	
+	return 0;
 }
