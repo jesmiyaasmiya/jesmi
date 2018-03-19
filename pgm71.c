@@ -8,14 +8,14 @@ printf("enter the string\n");
 scanf("%s",&a);
 strcpy(b,a);
 strrev(b);
-c=strcmp(a,s);
+c=strcmp(a,b);
 if(c==0)
 {
 printf("given string is palindrome");
 }
 else
 {
-printf("given string is not a palindrome")]
+printf("given string is not a palindrome");
 }
 return 0;
 }
